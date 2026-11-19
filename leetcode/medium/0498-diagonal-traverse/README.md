@@ -38,8 +38,8 @@ Input:int[][] mat = new int[][]{{1, 2}, {3, 4}};Output: [1,2,3,4]
 
 **Language:** Java  
 **Runtime:** 3 ms (beats 73.91%)  
-**Memory:** 47.7 MB (beats 79.37%)  
-**Submitted:** 2026-11-19T17:11:48.047Z  
+**Memory:** 47.7 MB (beats 71.58%)  
+**Submitted:** 2026-11-19T17:12:07.374Z  
 
 ```java
 class Solution {
@@ -59,8 +59,6 @@ class Solution {
                     i++;
                 }else if(i==0 ){
                     j++;
-                }else if(i>0 && j==n-1){
-                    i++;
                 }else {
                     i--;
                     j++;
