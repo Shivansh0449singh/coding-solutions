@@ -15,8 +15,6 @@ class Solution {
                     i++;
                 }else if(i==0 ){
                     j++;
-                }else if(i>0 && j==n-1){
-                    i++;
                 }else {
                     i--;
                     j++;
