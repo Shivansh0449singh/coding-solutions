@@ -11,9 +11,9 @@ class Solution {
             res[k]=mat[i][j];
             sum=i+j;
             if(sum % 2==0){
-                if(i==0 && j==n-1 ){
+                if(j==n-1 ){
                     i++;
-                }else if(i==0 && j<n-1){
+                }else if(i==0 ){
                     j++;
                 }else if(i>0 && j==n-1){
                     i++;
