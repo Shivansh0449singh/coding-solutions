@@ -38,8 +38,8 @@ Input:int[][] mat = new int[][]{{1, 2}, {3, 4}};Output: [1,2,3,4]
 
 **Language:** Java  
 **Runtime:** 3 ms (beats 73.91%)  
-**Memory:** 47.5 MB (beats 85.89%)  
-**Submitted:** 2026-11-19T17:09:10.096Z  
+**Memory:** 47.7 MB (beats 79.37%)  
+**Submitted:** 2026-11-19T17:11:48.047Z  
 
 ```java
 class Solution {
@@ -55,9 +55,9 @@ class Solution {
             res[k]=mat[i][j];
             sum=i+j;
             if(sum % 2==0){
-                if(i==0 && j==n-1 ){
+                if(j==n-1 ){
                     i++;
-                }else if(i==0 && j<n-1){
+                }else if(i==0 ){
                     j++;
                 }else if(i>0 && j==n-1){
                     i++;
