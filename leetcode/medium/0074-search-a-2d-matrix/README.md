@@ -44,8 +44,8 @@ Input:int[][] matrix = new int[][]{{1, 3, 5, 7}, {10, 11, 16, 20}, {23, 30, 34, 
 
 **Language:** Java  
 **Runtime:** 0 ms (beats 100.00%)  
-**Memory:** 43.3 MB (beats 87.38%)  
-**Submitted:** 2026-11-20T04:23:40.830Z  
+**Memory:** 42.9 MB (beats 99.05%)  
+**Submitted:** 2026-11-20T04:29:47.421Z  
 
 ```java
 class Solution {
